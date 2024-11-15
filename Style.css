@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Serif", serif;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(251, 255, 254);
+    position: sticky;
+    top:0;
+}
+.nav-bar img{
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+}
+.nav{
+    margin: 20px 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    margin: 10px;
+    padding: 10px 30px;
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(2, 17, 156);
+}
+.nav a:hover{
+    background-color: rgb(2, 17, 156);
+    color: white;
+    padding: 5px;
+    scale: 1.05;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.content{
+    width: 250px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 45px;
+    margin-left: -20px;
+    background-color: rgb(251, 255, 254);
+}
+.content a{
+    display: block;
+    text-decoration: none;
+    color: rgb(2, 17, 156);
+    padding: 10px;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.nav-bar button{
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgb(29, 13, 100);
+}
+.nav-bar button:hover{
+    scale: 1.05;
+}
+.nav-bar button b{
+    padding-right: 10px;
+}
+
+.nav-bar a i{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: green;
+}
+.banner{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.banner h1{
+    font-size: 150px;
+    margin: 0px 80px;
+    font-family: "Londrina Sketch", sans-serif;
+}
+.banner p{
+    font-size: 30px;
+    margin: 50px 80px;
+    color: green;
+    font-variant: small-caps;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    border-bottom-left-radius: 900px;
+}
+.details-container{
+    width: 100%;
+    margin: auto;
+}
+.details-container h2{
+    font-size: 55px;
+    text-align: center;
+    margin: 20px;
+    font-variant: small-caps;
+    color: green;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.single-container{
+    width: 50%;
+    padding: 20px;   
+}
+.single-container h3{
+    color: rgb(2, 17, 156);
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.single-container1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.single-container1 img{
+    width: 400px;
+}
+.single-container1 img:hover{
+    scale: 1.1;
+}
+.icon-container{
+    display: flex;
+}
+.icon{
+    width: 250px;
+    display: flex;
+    margin: 10px 30px;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgb(0, 0, 0, 0.19) ;
+}
+.icon img{
+    width: 100px;
+}
+.single-container img:hover{
+    scale: 1.1;
+}
+.icon p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.container1{
+    width: 100%;
+    background-color: rgb(240, 239, 239);
+}
+.container1 h2{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    margin: 30px;
+}
+.container1 h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.product-container{
+    width: 80%;
+    display: flex;
+    margin: auto;    
+    text-align: center;
+}
+.single-product{
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0px 10px 10px 0px rgb(0, 0, 0, 0.19) ;
+}
+.single-product img{
+    width: 100px;
+    margin: 10px;
+}
+.single-product img:hover{
+    scale: 1.1;
+}
+.single-product h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.single-product p{
+    font-size: 15px;
+}
+.single-product button{
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+}
+.process-container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.process-container i{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.single-process{
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dashed green;
+    border-radius: 150px;
+}
+.single-process img{
+    width: 80px;
+    height: 80px;
+}
+.single-process:hover{
+    scale: 1.1;
+}
+.single-process h4{
+    color: rgb(2, 17, 156);   
+}
+.single-process1{
+    width: 23%;
+    margin: auto;
+    border: 1px solid rgb(191, 247, 191);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 15px 15px 5px rgb(0, 0, 0, 0.19) ;
+}
+.single-process1:hover{
+    scale: 1.03;
+}
+.single-process1 img{
+    width: 280px;
+    padding: 10px;
+}
+.single-process1 h5{
+    color: rgb(2, 17, 156);   
+    font-size: 20px;
+}
+.single-process1 p{
+    font-size: 15px;
+    margin: 10px;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+}
+.footer-details{
+    width: 23%;
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+}
+.footer-details img{
+    width: 100px;
+    margin: 20px;
+}
+.footer-details h2{
+    font-size: 25px;
+    color: rgb(2, 17, 156);   
+    margin: 10px;
+    padding: 10px;
+}
+.footer-details p{
+    font-size: 18px;
+    margin: 10px;
+}
+.footer-icons i{
+    font-size: 35px;
+    border: 1px solid black;
+    background-color: rgb(75, 236, 236);
+}
